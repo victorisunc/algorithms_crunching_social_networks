@@ -10,8 +10,6 @@ def create_tour(nodes):
     # (1, 2), (1, 3), (2, 3)
     return []
 
-#########
-
 def get_degree(tour):
     degree = {}
     for x, y in tour:
